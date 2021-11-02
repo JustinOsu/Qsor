@@ -1,9 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>net5.0</TargetFramework>
         <LangVersion>9</LangVersion>
+        <OutputType>Exe</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
@@ -13,10 +13,6 @@
         <EmbeddedResource Include="Resources\Shaders\**\*" />
         <EmbeddedResource Include="Resources\Textures\**\*" />
         <EmbeddedResource Include="Resources\Tracks\**\*" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Resources\Tracks" />
     </ItemGroup>
 
     <ItemGroup>
